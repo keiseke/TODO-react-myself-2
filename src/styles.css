@@ -1,0 +1,41 @@
+.inputArea {
+  background-color: antiquewhite;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.incompleteArea {
+  background-color: #00ffff;
+  min-height: 200px;
+}
+
+.completeArea {
+  background-color: aquamarine;
+  min-height: 200px;
+}
+
+.listRow {
+  display: flex;
+  padding: 5px 2px;
+}
+input {
+  height: 1.5em;
+  border-style: none;
+  outline: none;
+  border-radius: 10px;
+}
+button {
+  margin-left: 5px;
+  border-style: none;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: pink;
+}
+p {
+  text-align: center;
+}
+.alert {
+  color: red;
+}
